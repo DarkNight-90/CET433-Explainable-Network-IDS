@@ -1,0 +1,462 @@
+column	value	rows	percent	partition
+label	1	119341	68.06223302022916	Official UNSW-NB15 training CSV
+label	0	56000	31.937766979770846	Official UNSW-NB15 training CSV
+attack_cat	Normal	56000	31.937766979770846	Official UNSW-NB15 training CSV
+attack_cat	Generic	40000	22.81269069983632	Official UNSW-NB15 training CSV
+attack_cat	Exploits	33393	19.044604513490857	Official UNSW-NB15 training CSV
+attack_cat	Fuzzers	18184	10.37064919214559	Official UNSW-NB15 training CSV
+attack_cat	DoS	12264	6.994370968569815	Official UNSW-NB15 training CSV
+attack_cat	Reconnaissance	10491	5.98319845329957	Official UNSW-NB15 training CSV
+attack_cat	Analysis	2000	1.1406345349918159	Official UNSW-NB15 training CSV
+attack_cat	Backdoor	1746	0.9957739490478553	Official UNSW-NB15 training CSV
+attack_cat	Shellcode	1133	0.6461694640728637	Official UNSW-NB15 training CSV
+attack_cat	Worms	130	0.07414124477446804	Official UNSW-NB15 training CSV
+proto	tcp	79946	45.59458426722786	Official UNSW-NB15 training CSV
+proto	udp	63283	36.091387638943544	Official UNSW-NB15 training CSV
+proto	unas	12084	6.891713860420552	Official UNSW-NB15 training CSV
+proto	arp	2859	1.6305370677708009	Official UNSW-NB15 training CSV
+proto	ospf	2595	1.4799733091518812	Official UNSW-NB15 training CSV
+proto	sctp	1150	0.6558648576202941	Official UNSW-NB15 training CSV
+proto	any	300	0.1710951802487724	Official UNSW-NB15 training CSV
+proto	gre	225	0.1283213851865793	Official UNSW-NB15 training CSV
+proto	ipv6	201	0.11463377076667751	Official UNSW-NB15 training CSV
+proto	mobile	201	0.11463377076667751	Official UNSW-NB15 training CSV
+proto	pim	201	0.11463377076667751	Official UNSW-NB15 training CSV
+proto	swipe	201	0.11463377076667751	Official UNSW-NB15 training CSV
+proto	sun-nd	201	0.11463377076667751	Official UNSW-NB15 training CSV
+proto	rsvp	200	0.1140634534991816	Official UNSW-NB15 training CSV
+proto	sep	193	0.11007123262671024	Official UNSW-NB15 training CSV
+proto	ib	101	0.057602044017086705	Official UNSW-NB15 training CSV
+proto	iplt	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	cphb	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	iso-ip	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sat-mon	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	pri-enc	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	kryptolan	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	bna	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	il	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	xtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipv6-route	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	idrp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	3pc	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	mfe-nsp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	vmtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	dgp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	wb-mon	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	cpnx	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	pvp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipv6-frag	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	wsn	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ddp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	snp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipv6-opts	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ax.25	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	eigrp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	pgm	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	idpr-cmtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	pnni	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	gmtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	narp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	fc	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	pipe	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipcomp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipv6-no	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sat-expak	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	zero	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	rvd	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sccopmce	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	aes-sp3-d	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipcv	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	br-sat-mon	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	nsfnet-igp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sprite-rpc	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ttp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	tcf	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	etherip	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	aris	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	scps	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	qnx	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	compaq-peer	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	wb-expak	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	mtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	cftp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	vines	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	uti	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	vrrp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	iatp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sm	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	isis	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	l2tp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	stp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	fire	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ptp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	merit-inp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sps	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	skip	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	idpr	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	smp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	srp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	i-nlsp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	larp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	encap	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipip	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ifmp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	tp++	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	a/n	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	micp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	mhrp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ipx-n-ip	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	sdrp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	tlsp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ippc	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	ddx	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	visa	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	secure-vmtp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	crudp	100	0.0570317267495908	Official UNSW-NB15 training CSV
+proto	trunk-2	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	cbt	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	leaf-2	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	crtp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	ggp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	ip	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	ipnip	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	st2	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	nvp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	igp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	emcon	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	pup	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	mux	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	chaos	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	xnet	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	prm	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	iso-tp4	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	irtp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	dcn	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	xns-idp	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	trunk-1	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	leaf-1	99	0.05646140948209489	Official UNSW-NB15 training CSV
+proto	bbn-rcc	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	rdp	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	hmp	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	egp	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	argus	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	netblt	98	0.05589109221459898	Official UNSW-NB15 training CSV
+proto	igmp	18	0.010265710814926344	Official UNSW-NB15 training CSV
+proto	icmp	15	0.00855475901243862	Official UNSW-NB15 training CSV
+proto	rtp	1	0.000570317267495908	Official UNSW-NB15 training CSV
+service	-	94168	53.70563644555466	Official UNSW-NB15 training CSV
+service	dns	47294	26.97258484895147	Official UNSW-NB15 training CSV
+service	http	18724	10.67862051659338	Official UNSW-NB15 training CSV
+service	smtp	5058	2.8846647389943025	Official UNSW-NB15 training CSV
+service	ftp-data	3995	2.278417483646152	Official UNSW-NB15 training CSV
+service	ftp	3428	1.9550475929759725	Official UNSW-NB15 training CSV
+service	ssh	1302	0.7425530822796722	Official UNSW-NB15 training CSV
+service	pop3	1105	0.6302005805829783	Official UNSW-NB15 training CSV
+service	dhcp	94	0.05360982314461535	Official UNSW-NB15 training CSV
+service	snmp	80	0.045625381399672635	Official UNSW-NB15 training CSV
+service	ssl	56	0.03193776697977085	Official UNSW-NB15 training CSV
+service	irc	25	0.0142579316873977	Official UNSW-NB15 training CSV
+service	radius	12	0.006843807209950896	Official UNSW-NB15 training CSV
+state	INT	82275	46.922853183225826	Official UNSW-NB15 training CSV
+state	FIN	77825	44.38494134286904	Official UNSW-NB15 training CSV
+state	CON	13152	7.500812702106182	Official UNSW-NB15 training CSV
+state	REQ	1991	1.1355016795843529	Official UNSW-NB15 training CSV
+state	RST	83	0.04733633320216036	Official UNSW-NB15 training CSV
+state	ECO	12	0.006843807209950896	Official UNSW-NB15 training CSV
+state	PAR	1	0.000570317267495908	Official UNSW-NB15 training CSV
+state	URN	1	0.000570317267495908	Official UNSW-NB15 training CSV
+state	no	1	0.000570317267495908	Official UNSW-NB15 training CSV
+label	1	95473	68.0622785568142	M02.2 internal fit
+label	0	44800	31.937721443185787	M02.2 internal fit
+attack_cat	Normal	44800	31.937721443185787	M02.2 internal fit
+attack_cat	Generic	32000	22.812658173704133	M02.2 internal fit
+attack_cat	Exploits	26715	19.045005097203312	M02.2 internal fit
+attack_cat	Fuzzers	14547	10.370491826652314	M02.2 internal fit
+attack_cat	DoS	9811	6.9942184169441015	M02.2 internal fit
+attack_cat	Reconnaissance	8393	5.983332501621837	M02.2 internal fit
+attack_cat	Analysis	1600	1.1406329086852067	M02.2 internal fit
+attack_cat	Backdoor	1397	0.9959151083957711	M02.2 internal fit
+attack_cat	Shellcode	906	0.6458833845429983	M02.2 internal fit
+attack_cat	Worms	104	0.07414113906453844	M02.2 internal fit
+proto	tcp	63990	45.61818739172899	M02.2 internal fit
+proto	udp	50685	36.13311186044356	M02.2 internal fit
+proto	unas	9815	6.997069999215815	M02.2 internal fit
+proto	arp	2213	1.5776378918252265	M02.2 internal fit
+proto	ospf	2129	1.5177546641192532	M02.2 internal fit
+proto	sctp	795	0.566751976502962	M02.2 internal fit
+proto	any	221	0.15754992051214417	M02.2 internal fit
+proto	gre	189	0.13473726233844005	M02.2 internal fit
+proto	pim	181	0.129034097795014	M02.2 internal fit
+proto	swipe	181	0.129034097795014	M02.2 internal fit
+proto	rsvp	180	0.12832120222708576	M02.2 internal fit
+proto	mobile	165	0.11762776870816194	M02.2 internal fit
+proto	sun-nd	155	0.1104988130288794	M02.2 internal fit
+proto	sep	154	0.10978591746095115	M02.2 internal fit
+proto	ipv6	125	0.08911194599103177	M02.2 internal fit
+proto	ipcv	100	0.07128955679282542	M02.2 internal fit
+proto	ax.25	100	0.07128955679282542	M02.2 internal fit
+proto	kryptolan	100	0.07128955679282542	M02.2 internal fit
+proto	vmtp	100	0.07128955679282542	M02.2 internal fit
+proto	fc	100	0.07128955679282542	M02.2 internal fit
+proto	narp	100	0.07128955679282542	M02.2 internal fit
+proto	ipv6-opts	100	0.07128955679282542	M02.2 internal fit
+proto	tcf	100	0.07128955679282542	M02.2 internal fit
+proto	aris	100	0.07128955679282542	M02.2 internal fit
+proto	sccopmce	100	0.07128955679282542	M02.2 internal fit
+proto	encap	100	0.07128955679282542	M02.2 internal fit
+proto	smp	100	0.07128955679282542	M02.2 internal fit
+proto	idpr	100	0.07128955679282542	M02.2 internal fit
+proto	skip	100	0.07128955679282542	M02.2 internal fit
+proto	tlsp	100	0.07128955679282542	M02.2 internal fit
+proto	sat-expak	100	0.07128955679282542	M02.2 internal fit
+proto	aes-sp3-d	100	0.07128955679282542	M02.2 internal fit
+proto	crudp	100	0.07128955679282542	M02.2 internal fit
+proto	il	100	0.07128955679282542	M02.2 internal fit
+proto	sdrp	100	0.07128955679282542	M02.2 internal fit
+proto	iso-ip	100	0.07128955679282542	M02.2 internal fit
+proto	prm	99	0.07057666122489717	M02.2 internal fit
+proto	pri-enc	99	0.07057666122489717	M02.2 internal fit
+proto	trunk-1	99	0.07057666122489717	M02.2 internal fit
+proto	xns-idp	99	0.07057666122489717	M02.2 internal fit
+proto	ipnip	99	0.07057666122489717	M02.2 internal fit
+proto	xnet	99	0.07057666122489717	M02.2 internal fit
+proto	chaos	99	0.07057666122489717	M02.2 internal fit
+proto	emcon	99	0.07057666122489717	M02.2 internal fit
+proto	ggp	99	0.07057666122489717	M02.2 internal fit
+proto	ipcomp	99	0.07057666122489717	M02.2 internal fit
+proto	cbt	99	0.07057666122489717	M02.2 internal fit
+proto	eigrp	99	0.07057666122489717	M02.2 internal fit
+proto	leaf-2	99	0.07057666122489717	M02.2 internal fit
+proto	irtp	99	0.07057666122489717	M02.2 internal fit
+proto	iso-tp4	99	0.07057666122489717	M02.2 internal fit
+proto	trunk-2	99	0.07057666122489717	M02.2 internal fit
+proto	i-nlsp	99	0.07057666122489717	M02.2 internal fit
+proto	ddx	99	0.07057666122489717	M02.2 internal fit
+proto	bbn-rcc	98	0.0698637656569689	M02.2 internal fit
+proto	egp	98	0.0698637656569689	M02.2 internal fit
+proto	ptp	82	0.058457436570116844	M02.2 internal fit
+proto	ipv6-route	82	0.058457436570116844	M02.2 internal fit
+proto	stp	82	0.058457436570116844	M02.2 internal fit
+proto	sps	82	0.058457436570116844	M02.2 internal fit
+proto	mux	81	0.057744541002188586	M02.2 internal fit
+proto	ippc	81	0.057744541002188586	M02.2 internal fit
+proto	xtp	81	0.057744541002188586	M02.2 internal fit
+proto	wb-expak	80	0.057031645434260335	M02.2 internal fit
+proto	isis	80	0.057031645434260335	M02.2 internal fit
+proto	sm	80	0.057031645434260335	M02.2 internal fit
+proto	larp	80	0.057031645434260335	M02.2 internal fit
+proto	micp	80	0.057031645434260335	M02.2 internal fit
+proto	mtp	80	0.057031645434260335	M02.2 internal fit
+proto	vines	80	0.057031645434260335	M02.2 internal fit
+proto	idpr-cmtp	80	0.057031645434260335	M02.2 internal fit
+proto	nsfnet-igp	80	0.057031645434260335	M02.2 internal fit
+proto	qnx	80	0.057031645434260335	M02.2 internal fit
+proto	uti	80	0.057031645434260335	M02.2 internal fit
+proto	zero	80	0.057031645434260335	M02.2 internal fit
+proto	gmtp	80	0.057031645434260335	M02.2 internal fit
+proto	cpnx	80	0.057031645434260335	M02.2 internal fit
+proto	ifmp	80	0.057031645434260335	M02.2 internal fit
+proto	pnni	79	0.056318749866332084	M02.2 internal fit
+proto	wb-mon	79	0.056318749866332084	M02.2 internal fit
+proto	iplt	79	0.056318749866332084	M02.2 internal fit
+proto	ipv6-no	79	0.056318749866332084	M02.2 internal fit
+proto	mhrp	79	0.056318749866332084	M02.2 internal fit
+proto	a/n	79	0.056318749866332084	M02.2 internal fit
+proto	pup	79	0.056318749866332084	M02.2 internal fit
+proto	crtp	79	0.056318749866332084	M02.2 internal fit
+proto	br-sat-mon	79	0.056318749866332084	M02.2 internal fit
+proto	leaf-1	79	0.056318749866332084	M02.2 internal fit
+proto	ttp	79	0.056318749866332084	M02.2 internal fit
+proto	igp	79	0.056318749866332084	M02.2 internal fit
+proto	argus	78	0.055605854298403826	M02.2 internal fit
+proto	rdp	78	0.055605854298403826	M02.2 internal fit
+proto	hmp	78	0.055605854298403826	M02.2 internal fit
+proto	cphb	78	0.055605854298403826	M02.2 internal fit
+proto	srp	78	0.055605854298403826	M02.2 internal fit
+proto	sat-mon	62	0.04419952521155176	M02.2 internal fit
+proto	l2tp	62	0.04419952521155176	M02.2 internal fit
+proto	visa	62	0.04419952521155176	M02.2 internal fit
+proto	mfe-nsp	62	0.04419952521155176	M02.2 internal fit
+proto	merit-inp	61	0.04348662964362351	M02.2 internal fit
+proto	pvp	61	0.04348662964362351	M02.2 internal fit
+proto	dgp	61	0.04348662964362351	M02.2 internal fit
+proto	cftp	61	0.04348662964362351	M02.2 internal fit
+proto	sprite-rpc	60	0.04277373407569525	M02.2 internal fit
+proto	ipx-n-ip	60	0.04277373407569525	M02.2 internal fit
+proto	pipe	60	0.04277373407569525	M02.2 internal fit
+proto	ipip	60	0.04277373407569525	M02.2 internal fit
+proto	ddp	60	0.04277373407569525	M02.2 internal fit
+proto	dcn	59	0.042060838507767	M02.2 internal fit
+proto	etherip	59	0.042060838507767	M02.2 internal fit
+proto	bna	59	0.042060838507767	M02.2 internal fit
+proto	tp++	59	0.042060838507767	M02.2 internal fit
+proto	nvp	59	0.042060838507767	M02.2 internal fit
+proto	rvd	59	0.042060838507767	M02.2 internal fit
+proto	fire	59	0.042060838507767	M02.2 internal fit
+proto	pgm	59	0.042060838507767	M02.2 internal fit
+proto	scps	59	0.042060838507767	M02.2 internal fit
+proto	snp	58	0.04134794293983874	M02.2 internal fit
+proto	idrp	58	0.04134794293983874	M02.2 internal fit
+proto	netblt	57	0.04063504737191049	M02.2 internal fit
+proto	compaq-peer	42	0.029941613852986677	M02.2 internal fit
+proto	iatp	42	0.029941613852986677	M02.2 internal fit
+proto	wsn	40	0.028515822717130167	M02.2 internal fit
+proto	ib	40	0.028515822717130167	M02.2 internal fit
+proto	ip	40	0.028515822717130167	M02.2 internal fit
+proto	st2	40	0.028515822717130167	M02.2 internal fit
+proto	vrrp	39	0.027802927149201913	M02.2 internal fit
+proto	ipv6-frag	39	0.027802927149201913	M02.2 internal fit
+proto	3pc	38	0.027090031581273658	M02.2 internal fit
+proto	secure-vmtp	21	0.014970806926493338	M02.2 internal fit
+proto	igmp	17	0.012119224654780322	M02.2 internal fit
+proto	icmp	13	0.009267642383067305	M02.2 internal fit
+proto	rtp	1	0.0007128955679282542	M02.2 internal fit
+service	-	75316	53.69244259408439	M02.2 internal fit
+service	dns	37820	26.961710379046572	M02.2 internal fit
+service	http	14988	10.684878772108673	M02.2 internal fit
+service	smtp	4058	2.8929302146528557	M02.2 internal fit
+service	ftp-data	3185	2.2705723838514897	M02.2 internal fit
+service	ftp	2747	1.9583241250989143	M02.2 internal fit
+service	ssh	1053	0.7506790330284516	M02.2 internal fit
+service	pop3	882	0.6287738909127202	M02.2 internal fit
+service	dhcp	83	0.059170332138045095	M02.2 internal fit
+service	snmp	64	0.04562531634740827	M02.2 internal fit
+service	ssl	48	0.0342189872605562	M02.2 internal fit
+service	irc	21	0.014970806926493338	M02.2 internal fit
+service	radius	8	0.0057031645434260335	M02.2 internal fit
+state	INT	65878	46.96413422397753	M02.2 internal fit
+state	FIN	62294	44.409116508522665	M02.2 internal fit
+state	CON	10506	7.489680836654238	M02.2 internal fit
+state	REQ	1513	1.0786109942754485	M02.2 internal fit
+state	RST	69	0.04918979418704954	M02.2 internal fit
+state	ECO	10	0.007128955679282542	M02.2 internal fit
+state	PAR	1	0.0007128955679282542	M02.2 internal fit
+state	URN	1	0.0007128955679282542	M02.2 internal fit
+state	no	1	0.0007128955679282542	M02.2 internal fit
+label	1	23868	68.06205087259039	M02.2 internal validation
+label	0	11200	31.937949127409603	M02.2 internal validation
+attack_cat	Normal	11200	31.937949127409603	M02.2 internal validation
+attack_cat	Generic	8000	22.812820805292574	M02.2 internal validation
+attack_cat	Exploits	6678	19.043002167217978	M02.2 internal validation
+attack_cat	Fuzzers	3637	10.371278658606137	M02.2 internal validation
+attack_cat	DoS	2453	6.994981179422836	M02.2 internal validation
+attack_cat	Reconnaissance	2098	5.982662256187978	M02.2 internal validation
+attack_cat	Analysis	400	1.1406410402646288	M02.2 internal validation
+attack_cat	Backdoor	349	0.9952093076308886	M02.2 internal validation
+attack_cat	Shellcode	227	0.6473137903501768	M02.2 internal validation
+attack_cat	Worms	26	0.07414166761720087	M02.2 internal validation
+proto	tcp	15956	45.50017109615604	M02.2 internal validation
+proto	udp	12598	35.92448956313448	M02.2 internal validation
+proto	unas	2269	6.4702863009011065	M02.2 internal validation
+proto	arp	646	1.8421352800273754	M02.2 internal validation
+proto	ospf	466	1.3288468119082926	M02.2 internal validation
+proto	sctp	355	1.012318923234858	M02.2 internal validation
+proto	secure-vmtp	79	0.22527660545226416	M02.2 internal validation
+proto	any	79	0.22527660545226416	M02.2 internal validation
+proto	ipv6	76	0.21672179765027946	M02.2 internal validation
+proto	3pc	62	0.17679936124101744	M02.2 internal validation
+proto	ib	61	0.1739477586403559	M02.2 internal validation
+proto	ipv6-frag	61	0.1739477586403559	M02.2 internal validation
+proto	vrrp	61	0.1739477586403559	M02.2 internal validation
+proto	wsn	60	0.1710961560396943	M02.2 internal validation
+proto	ip	59	0.16824455343903275	M02.2 internal validation
+proto	st2	59	0.16824455343903275	M02.2 internal validation
+proto	compaq-peer	58	0.16539295083837116	M02.2 internal validation
+proto	iatp	58	0.16539295083837116	M02.2 internal validation
+proto	sun-nd	46	0.1311737196304323	M02.2 internal validation
+proto	snp	42	0.11976730922778601	M02.2 internal validation
+proto	idrp	42	0.11976730922778601	M02.2 internal validation
+proto	tp++	41	0.11691570662712444	M02.2 internal validation
+proto	netblt	41	0.11691570662712444	M02.2 internal validation
+proto	etherip	41	0.11691570662712444	M02.2 internal validation
+proto	rvd	41	0.11691570662712444	M02.2 internal validation
+proto	bna	41	0.11691570662712444	M02.2 internal validation
+proto	scps	41	0.11691570662712444	M02.2 internal validation
+proto	pgm	41	0.11691570662712444	M02.2 internal validation
+proto	fire	41	0.11691570662712444	M02.2 internal validation
+proto	nvp	40	0.11406410402646287	M02.2 internal validation
+proto	ddp	40	0.11406410402646287	M02.2 internal validation
+proto	ipip	40	0.11406410402646287	M02.2 internal validation
+proto	ipx-n-ip	40	0.11406410402646287	M02.2 internal validation
+proto	pipe	40	0.11406410402646287	M02.2 internal validation
+proto	dcn	40	0.11406410402646287	M02.2 internal validation
+proto	sprite-rpc	40	0.11406410402646287	M02.2 internal validation
+proto	merit-inp	39	0.1112125014258013	M02.2 internal validation
+proto	cftp	39	0.1112125014258013	M02.2 internal validation
+proto	sep	39	0.1112125014258013	M02.2 internal validation
+proto	dgp	39	0.1112125014258013	M02.2 internal validation
+proto	pvp	39	0.1112125014258013	M02.2 internal validation
+proto	sat-mon	38	0.10836089882513973	M02.2 internal validation
+proto	mfe-nsp	38	0.10836089882513973	M02.2 internal validation
+proto	visa	38	0.10836089882513973	M02.2 internal validation
+proto	l2tp	38	0.10836089882513973	M02.2 internal validation
+proto	gre	36	0.10265769362381659	M02.2 internal validation
+proto	mobile	36	0.10265769362381659	M02.2 internal validation
+proto	cphb	22	0.06273525721455459	M02.2 internal validation
+proto	srp	22	0.06273525721455459	M02.2 internal validation
+proto	a/n	21	0.05988365461389301	M02.2 internal validation
+proto	iplt	21	0.05988365461389301	M02.2 internal validation
+proto	wb-mon	21	0.05988365461389301	M02.2 internal validation
+proto	br-sat-mon	21	0.05988365461389301	M02.2 internal validation
+proto	ipv6-no	21	0.05988365461389301	M02.2 internal validation
+proto	mhrp	21	0.05988365461389301	M02.2 internal validation
+proto	ttp	21	0.05988365461389301	M02.2 internal validation
+proto	pnni	21	0.05988365461389301	M02.2 internal validation
+proto	uti	20	0.057032052013231437	M02.2 internal validation
+proto	qnx	20	0.057032052013231437	M02.2 internal validation
+proto	larp	20	0.057032052013231437	M02.2 internal validation
+proto	wb-expak	20	0.057032052013231437	M02.2 internal validation
+proto	argus	20	0.057032052013231437	M02.2 internal validation
+proto	idpr-cmtp	20	0.057032052013231437	M02.2 internal validation
+proto	rsvp	20	0.057032052013231437	M02.2 internal validation
+proto	pim	20	0.057032052013231437	M02.2 internal validation
+proto	gmtp	20	0.057032052013231437	M02.2 internal validation
+proto	mtp	20	0.057032052013231437	M02.2 internal validation
+proto	rdp	20	0.057032052013231437	M02.2 internal validation
+proto	swipe	20	0.057032052013231437	M02.2 internal validation
+proto	cpnx	20	0.057032052013231437	M02.2 internal validation
+proto	nsfnet-igp	20	0.057032052013231437	M02.2 internal validation
+proto	pup	20	0.057032052013231437	M02.2 internal validation
+proto	leaf-1	20	0.057032052013231437	M02.2 internal validation
+proto	sm	20	0.057032052013231437	M02.2 internal validation
+proto	igp	20	0.057032052013231437	M02.2 internal validation
+proto	isis	20	0.057032052013231437	M02.2 internal validation
+proto	micp	20	0.057032052013231437	M02.2 internal validation
+proto	hmp	20	0.057032052013231437	M02.2 internal validation
+proto	vines	20	0.057032052013231437	M02.2 internal validation
+proto	ifmp	20	0.057032052013231437	M02.2 internal validation
+proto	crtp	20	0.057032052013231437	M02.2 internal validation
+proto	zero	20	0.057032052013231437	M02.2 internal validation
+proto	xtp	19	0.054180449412569866	M02.2 internal validation
+proto	ippc	19	0.054180449412569866	M02.2 internal validation
+proto	mux	18	0.051328846811908295	M02.2 internal validation
+proto	sps	18	0.051328846811908295	M02.2 internal validation
+proto	ptp	18	0.051328846811908295	M02.2 internal validation
+proto	stp	18	0.051328846811908295	M02.2 internal validation
+proto	ipv6-route	18	0.051328846811908295	M02.2 internal validation
+proto	icmp	2	0.005703205201323143	M02.2 internal validation
+proto	i-nlsp	1	0.0028516026006615717	M02.2 internal validation
+proto	eigrp	1	0.0028516026006615717	M02.2 internal validation
+proto	pri-enc	1	0.0028516026006615717	M02.2 internal validation
+proto	ddx	1	0.0028516026006615717	M02.2 internal validation
+proto	ipcomp	1	0.0028516026006615717	M02.2 internal validation
+proto	igmp	1	0.0028516026006615717	M02.2 internal validation
+service	-	18852	53.758412227671954	M02.2 internal validation
+service	dns	9474	27.01608303866773	M02.2 internal validation
+service	http	3736	10.653587316071633	M02.2 internal validation
+service	smtp	1000	2.851602600661572	M02.2 internal validation
+service	ftp-data	810	2.3097981065358733	M02.2 internal validation
+service	ftp	681	1.9419413710505304	M02.2 internal validation
+service	ssh	249	0.7100490475647314	M02.2 internal validation
+service	pop3	223	0.6359073799475305	M02.2 internal validation
+service	snmp	16	0.045625641610585146	M02.2 internal validation
+service	dhcp	11	0.03136762860727729	M02.2 internal validation
+service	ssl	8	0.022812820805292573	M02.2 internal validation
+service	irc	4	0.011406410402646287	M02.2 internal validation
+service	radius	4	0.011406410402646287	M02.2 internal validation
+state	INT	16397	46.757727843047796	M02.2 internal validation
+state	FIN	15531	44.28823999087487	M02.2 internal validation
+state	CON	2646	7.545340481350519	M02.2 internal validation
+state	REQ	478	1.3630660431162314	M02.2 internal validation
+state	RST	14	0.039922436409262005	M02.2 internal validation
+state	ECO	2	0.005703205201323143	M02.2 internal validation

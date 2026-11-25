@@ -1,0 +1,23 @@
+digraph pipeline {
+  graph [rankdir=TB, bgcolor="white", pad=0.22, nodesep=0.45, ranksep=0.4, labelloc=t,
+         label="UNSW-NB15 official training CSV | Stage A and Stage B preprocessing",
+         fontname="DejaVu Sans", fontsize=16]
+  node [shape=box, style="rounded,filled", fillcolor="#ECF5F8", color="#176880",
+        fontname="DejaVu Sans", fontsize=11, margin="0.16,0.1"]
+  edge [color="#526A76", arrowsize=0.7]
+  source [label="175,341 source rows\n42 inputs and separate targets"]
+  split [label="Frozen M02.2 row assignments\nInternal fit 140,273 | Internal validation 35,068\nStage B CV inside internal fit only (five folds)"]
+  fit [label="Internal fit or CV fold fit\nLearn preprocessing here"]
+  held [label="Internal validation or CV fold holdout\nReuse fit-side statistics and vocabulary"]
+  numeric [label="39 numeric inputs\nParse, map infinities to missing\nMedian → clip below zero → log1p → standardize"]
+  categories [label="3 categorical inputs\nproto, service, state\nOne-hot encode with rare-level pooling"]
+  concat [label="Concatenate numeric and one-hot outputs"]
+  model [label="Fit classifier with balanced class weights\nScore held-out rows with fitted pipeline"]
+  source -> split
+  split -> {fit held}
+  {fit held} -> {numeric categories}
+  {numeric categories} -> concat
+  concat -> model
+  {rank=same; fit held}
+  {rank=same; numeric categories}
+}

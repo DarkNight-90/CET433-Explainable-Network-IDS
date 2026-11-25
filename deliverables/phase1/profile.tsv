@@ -1,0 +1,22 @@
+measure	Official UNSW-NB15 training CSV	M02.2 internal fit	M02.2 internal validation
+observations	175341	140273	35068
+original columns	45	45	45
+integer columns	30	30	30
+floating-point columns	11	11	11
+text columns	4	4	4
+numeric model inputs	39	39	39
+categorical model inputs	3	3	3
+missing cells	0	0	0
+blank/whitespace text cells	0	0	0
+infinite numeric cells	0	0	0
+extra duplicate rows (all columns)	0	0	0
+extra duplicate rows (excluding id)	67601	54086	13515
+distinct model feature groups	101040	80833	20207
+extra duplicate feature vectors	74301	59440	14861
+repeated feature groups	9748	7800	1948
+rows in repeated feature groups	84049	67240	16809
+largest feature group (rows)	415	415	166
+groups with conflicting binary label	229	183	46
+rows in groups with conflicting binary label	940	753	187
+groups with conflicting family label	1772	1416	356
+rows in groups with conflicting family label	30528	24403	6125

@@ -1,0 +1,136 @@
+column	missing_rows	percent	partition
+id	0	0.0	Official UNSW-NB15 training CSV
+dur	0	0.0	Official UNSW-NB15 training CSV
+proto	0	0.0	Official UNSW-NB15 training CSV
+service	0	0.0	Official UNSW-NB15 training CSV
+state	0	0.0	Official UNSW-NB15 training CSV
+spkts	0	0.0	Official UNSW-NB15 training CSV
+dpkts	0	0.0	Official UNSW-NB15 training CSV
+sbytes	0	0.0	Official UNSW-NB15 training CSV
+dbytes	0	0.0	Official UNSW-NB15 training CSV
+rate	0	0.0	Official UNSW-NB15 training CSV
+sttl	0	0.0	Official UNSW-NB15 training CSV
+dttl	0	0.0	Official UNSW-NB15 training CSV
+sload	0	0.0	Official UNSW-NB15 training CSV
+dload	0	0.0	Official UNSW-NB15 training CSV
+sloss	0	0.0	Official UNSW-NB15 training CSV
+dloss	0	0.0	Official UNSW-NB15 training CSV
+sinpkt	0	0.0	Official UNSW-NB15 training CSV
+dinpkt	0	0.0	Official UNSW-NB15 training CSV
+sjit	0	0.0	Official UNSW-NB15 training CSV
+djit	0	0.0	Official UNSW-NB15 training CSV
+swin	0	0.0	Official UNSW-NB15 training CSV
+stcpb	0	0.0	Official UNSW-NB15 training CSV
+dtcpb	0	0.0	Official UNSW-NB15 training CSV
+dwin	0	0.0	Official UNSW-NB15 training CSV
+tcprtt	0	0.0	Official UNSW-NB15 training CSV
+synack	0	0.0	Official UNSW-NB15 training CSV
+ackdat	0	0.0	Official UNSW-NB15 training CSV
+smean	0	0.0	Official UNSW-NB15 training CSV
+dmean	0	0.0	Official UNSW-NB15 training CSV
+trans_depth	0	0.0	Official UNSW-NB15 training CSV
+response_body_len	0	0.0	Official UNSW-NB15 training CSV
+ct_srv_src	0	0.0	Official UNSW-NB15 training CSV
+ct_state_ttl	0	0.0	Official UNSW-NB15 training CSV
+ct_dst_ltm	0	0.0	Official UNSW-NB15 training CSV
+ct_src_dport_ltm	0	0.0	Official UNSW-NB15 training CSV
+ct_dst_sport_ltm	0	0.0	Official UNSW-NB15 training CSV
+ct_dst_src_ltm	0	0.0	Official UNSW-NB15 training CSV
+is_ftp_login	0	0.0	Official UNSW-NB15 training CSV
+ct_ftp_cmd	0	0.0	Official UNSW-NB15 training CSV
+ct_flw_http_mthd	0	0.0	Official UNSW-NB15 training CSV
+ct_src_ltm	0	0.0	Official UNSW-NB15 training CSV
+ct_srv_dst	0	0.0	Official UNSW-NB15 training CSV
+is_sm_ips_ports	0	0.0	Official UNSW-NB15 training CSV
+attack_cat	0	0.0	Official UNSW-NB15 training CSV
+label	0	0.0	Official UNSW-NB15 training CSV
+id	0	0.0	M02.2 internal fit
+dur	0	0.0	M02.2 internal fit
+proto	0	0.0	M02.2 internal fit
+service	0	0.0	M02.2 internal fit
+state	0	0.0	M02.2 internal fit
+spkts	0	0.0	M02.2 internal fit
+dpkts	0	0.0	M02.2 internal fit
+sbytes	0	0.0	M02.2 internal fit
+dbytes	0	0.0	M02.2 internal fit
+rate	0	0.0	M02.2 internal fit
+sttl	0	0.0	M02.2 internal fit
+dttl	0	0.0	M02.2 internal fit
+sload	0	0.0	M02.2 internal fit
+dload	0	0.0	M02.2 internal fit
+sloss	0	0.0	M02.2 internal fit
+dloss	0	0.0	M02.2 internal fit
+sinpkt	0	0.0	M02.2 internal fit
+dinpkt	0	0.0	M02.2 internal fit
+sjit	0	0.0	M02.2 internal fit
+djit	0	0.0	M02.2 internal fit
+swin	0	0.0	M02.2 internal fit
+stcpb	0	0.0	M02.2 internal fit
+dtcpb	0	0.0	M02.2 internal fit
+dwin	0	0.0	M02.2 internal fit
+tcprtt	0	0.0	M02.2 internal fit
+synack	0	0.0	M02.2 internal fit
+ackdat	0	0.0	M02.2 internal fit
+smean	0	0.0	M02.2 internal fit
+dmean	0	0.0	M02.2 internal fit
+trans_depth	0	0.0	M02.2 internal fit
+response_body_len	0	0.0	M02.2 internal fit
+ct_srv_src	0	0.0	M02.2 internal fit
+ct_state_ttl	0	0.0	M02.2 internal fit
+ct_dst_ltm	0	0.0	M02.2 internal fit
+ct_src_dport_ltm	0	0.0	M02.2 internal fit
+ct_dst_sport_ltm	0	0.0	M02.2 internal fit
+ct_dst_src_ltm	0	0.0	M02.2 internal fit
+is_ftp_login	0	0.0	M02.2 internal fit
+ct_ftp_cmd	0	0.0	M02.2 internal fit
+ct_flw_http_mthd	0	0.0	M02.2 internal fit
+ct_src_ltm	0	0.0	M02.2 internal fit
+ct_srv_dst	0	0.0	M02.2 internal fit
+is_sm_ips_ports	0	0.0	M02.2 internal fit
+attack_cat	0	0.0	M02.2 internal fit
+label	0	0.0	M02.2 internal fit
+id	0	0.0	M02.2 internal validation
+dur	0	0.0	M02.2 internal validation
+proto	0	0.0	M02.2 internal validation
+service	0	0.0	M02.2 internal validation
+state	0	0.0	M02.2 internal validation
+spkts	0	0.0	M02.2 internal validation
+dpkts	0	0.0	M02.2 internal validation
+sbytes	0	0.0	M02.2 internal validation
+dbytes	0	0.0	M02.2 internal validation
+rate	0	0.0	M02.2 internal validation
+sttl	0	0.0	M02.2 internal validation
+dttl	0	0.0	M02.2 internal validation
+sload	0	0.0	M02.2 internal validation
+dload	0	0.0	M02.2 internal validation
+sloss	0	0.0	M02.2 internal validation
+dloss	0	0.0	M02.2 internal validation
+sinpkt	0	0.0	M02.2 internal validation
+dinpkt	0	0.0	M02.2 internal validation
+sjit	0	0.0	M02.2 internal validation
+djit	0	0.0	M02.2 internal validation
+swin	0	0.0	M02.2 internal validation
+stcpb	0	0.0	M02.2 internal validation
+dtcpb	0	0.0	M02.2 internal validation
+dwin	0	0.0	M02.2 internal validation
+tcprtt	0	0.0	M02.2 internal validation
+synack	0	0.0	M02.2 internal validation
+ackdat	0	0.0	M02.2 internal validation
+smean	0	0.0	M02.2 internal validation
+dmean	0	0.0	M02.2 internal validation
+trans_depth	0	0.0	M02.2 internal validation
+response_body_len	0	0.0	M02.2 internal validation
+ct_srv_src	0	0.0	M02.2 internal validation
+ct_state_ttl	0	0.0	M02.2 internal validation
+ct_dst_ltm	0	0.0	M02.2 internal validation
+ct_src_dport_ltm	0	0.0	M02.2 internal validation
+ct_dst_sport_ltm	0	0.0	M02.2 internal validation
+ct_dst_src_ltm	0	0.0	M02.2 internal validation
+is_ftp_login	0	0.0	M02.2 internal validation
+ct_ftp_cmd	0	0.0	M02.2 internal validation
+ct_flw_http_mthd	0	0.0	M02.2 internal validation
+ct_src_ltm	0	0.0	M02.2 internal validation
+ct_srv_dst	0	0.0	M02.2 internal validation
+is_sm_ips_ports	0	0.0	M02.2 internal validation
+attack_cat	0	0.0	M02.2 internal validation
+label	0	0.0	M02.2 internal validation

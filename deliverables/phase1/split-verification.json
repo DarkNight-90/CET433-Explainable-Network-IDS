@@ -1,0 +1,283 @@
+{
+  "training_sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa",
+  "rows": 175341,
+  "groups": 101040,
+  "assignment_sha256": "4514dce655a725a2f10f4b65a4cfc8078b0c5156f8e9340f0e000708260cbfe9",
+  "fit_validation_group_overlap": 0,
+  "cv_group_overlap": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "assignment_generation_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0"
+  },
+  "acceptance_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0"
+  },
+  "support": {
+    "fit": {
+      "rows": 140273,
+      "groups": 80833,
+      "binary": {
+        "0": 44800,
+        "1": 95473
+      },
+      "attack_categories": {
+        "Analysis": 1600,
+        "Backdoor": 1397,
+        "DoS": 9811,
+        "Exploits": 26715,
+        "Fuzzers": 14547,
+        "Generic": 32000,
+        "Normal": 44800,
+        "Reconnaissance": 8393,
+        "Shellcode": 906,
+        "Worms": 104
+      }
+    },
+    "validation": {
+      "rows": 35068,
+      "groups": 20207,
+      "binary": {
+        "0": 11200,
+        "1": 23868
+      },
+      "attack_categories": {
+        "Analysis": 400,
+        "Backdoor": 349,
+        "DoS": 2453,
+        "Exploits": 6678,
+        "Fuzzers": 3637,
+        "Generic": 8000,
+        "Normal": 11200,
+        "Reconnaissance": 2098,
+        "Shellcode": 227,
+        "Worms": 26
+      }
+    },
+    "cv": [
+      {
+        "fold": 0,
+        "fit": {
+          "rows": 112218,
+          "groups": 64705,
+          "binary": {
+            "0": 35840,
+            "1": 76378
+          },
+          "attack_categories": {
+            "Analysis": 1280,
+            "Backdoor": 1117,
+            "DoS": 7849,
+            "Exploits": 21372,
+            "Fuzzers": 11638,
+            "Generic": 25600,
+            "Normal": 35840,
+            "Reconnaissance": 6714,
+            "Shellcode": 725,
+            "Worms": 83
+          }
+        },
+        "held_out": {
+          "rows": 28055,
+          "groups": 16128,
+          "binary": {
+            "0": 8960,
+            "1": 19095
+          },
+          "attack_categories": {
+            "Analysis": 320,
+            "Backdoor": 280,
+            "DoS": 1962,
+            "Exploits": 5343,
+            "Fuzzers": 2909,
+            "Generic": 6400,
+            "Normal": 8960,
+            "Reconnaissance": 1679,
+            "Shellcode": 181,
+            "Worms": 21
+          }
+        }
+      },
+      {
+        "fold": 1,
+        "fit": {
+          "rows": 112219,
+          "groups": 64655,
+          "binary": {
+            "0": 35840,
+            "1": 76379
+          },
+          "attack_categories": {
+            "Analysis": 1280,
+            "Backdoor": 1117,
+            "DoS": 7849,
+            "Exploits": 21372,
+            "Fuzzers": 11637,
+            "Generic": 25600,
+            "Normal": 35840,
+            "Reconnaissance": 6715,
+            "Shellcode": 725,
+            "Worms": 84
+          }
+        },
+        "held_out": {
+          "rows": 28054,
+          "groups": 16178,
+          "binary": {
+            "0": 8960,
+            "1": 19094
+          },
+          "attack_categories": {
+            "Analysis": 320,
+            "Backdoor": 280,
+            "DoS": 1962,
+            "Exploits": 5343,
+            "Fuzzers": 2910,
+            "Generic": 6400,
+            "Normal": 8960,
+            "Reconnaissance": 1678,
+            "Shellcode": 181,
+            "Worms": 20
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "fit": {
+          "rows": 112218,
+          "groups": 64651,
+          "binary": {
+            "0": 35840,
+            "1": 76378
+          },
+          "attack_categories": {
+            "Analysis": 1280,
+            "Backdoor": 1118,
+            "DoS": 7849,
+            "Exploits": 21372,
+            "Fuzzers": 11637,
+            "Generic": 25600,
+            "Normal": 35840,
+            "Reconnaissance": 6714,
+            "Shellcode": 725,
+            "Worms": 83
+          }
+        },
+        "held_out": {
+          "rows": 28055,
+          "groups": 16182,
+          "binary": {
+            "0": 8960,
+            "1": 19095
+          },
+          "attack_categories": {
+            "Analysis": 320,
+            "Backdoor": 279,
+            "DoS": 1962,
+            "Exploits": 5343,
+            "Fuzzers": 2910,
+            "Generic": 6400,
+            "Normal": 8960,
+            "Reconnaissance": 1679,
+            "Shellcode": 181,
+            "Worms": 21
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "fit": {
+          "rows": 112218,
+          "groups": 64661,
+          "binary": {
+            "0": 35840,
+            "1": 76378
+          },
+          "attack_categories": {
+            "Analysis": 1280,
+            "Backdoor": 1118,
+            "DoS": 7848,
+            "Exploits": 21372,
+            "Fuzzers": 11638,
+            "Generic": 25600,
+            "Normal": 35840,
+            "Reconnaissance": 6715,
+            "Shellcode": 724,
+            "Worms": 83
+          }
+        },
+        "held_out": {
+          "rows": 28055,
+          "groups": 16172,
+          "binary": {
+            "0": 8960,
+            "1": 19095
+          },
+          "attack_categories": {
+            "Analysis": 320,
+            "Backdoor": 279,
+            "DoS": 1963,
+            "Exploits": 5343,
+            "Fuzzers": 2909,
+            "Generic": 6400,
+            "Normal": 8960,
+            "Reconnaissance": 1678,
+            "Shellcode": 182,
+            "Worms": 21
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "fit": {
+          "rows": 112219,
+          "groups": 64660,
+          "binary": {
+            "0": 35840,
+            "1": 76379
+          },
+          "attack_categories": {
+            "Analysis": 1280,
+            "Backdoor": 1118,
+            "DoS": 7849,
+            "Exploits": 21372,
+            "Fuzzers": 11638,
+            "Generic": 25600,
+            "Normal": 35840,
+            "Reconnaissance": 6714,
+            "Shellcode": 725,
+            "Worms": 83
+          }
+        },
+        "held_out": {
+          "rows": 28054,
+          "groups": 16173,
+          "binary": {
+            "0": 8960,
+            "1": 19094
+          },
+          "attack_categories": {
+            "Analysis": 320,
+            "Backdoor": 279,
+            "DoS": 1962,
+            "Exploits": 5343,
+            "Fuzzers": 2909,
+            "Generic": 6400,
+            "Normal": 8960,
+            "Reconnaissance": 1679,
+            "Shellcode": 181,
+            "Worms": 21
+          }
+        }
+      }
+    ]
+  }
+}

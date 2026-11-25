@@ -19,6 +19,8 @@ dist/
 .ipynb_checkpoints/
 
 # Datasets and packet captures
+/data/official/
+/data_sample/
 *.csv
 *.csv.gz
 *.parquet
@@ -51,6 +53,10 @@ metrics.json
 /runs/*
 /logs/*
 /artifacts/generated/
+/audits/
+/models/
+/snapshots/
+/splits/*assignments.json
 /mlruns/
 /wandb/
 
