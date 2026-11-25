@@ -1,61 +1,47 @@
-# CET433 Project 2 Report — Explainable Network IDS for SOC Analysts
+# CET433 Phase 1 report draft
+## Network Intrusion Detection with Explainable AI for SOC Analysts
 
-> Complete this report only after running the notebook. Replace every `[INSERT ...]` field with measured results. Do not invent metrics.
+November 26, 2026 · Fall 2026 · Mohamed Hesham Abbas, Radwa Tarek and Roaa Tarek
 
-## 1. Abstract
-[INSERT 150–200 word summary: problem, dataset, methods, best measured result, limitations.]
+### Abstract
 
-## 2. Problem and Market Case
-**Customer:** Company SOC / MSSP.  
-**Problem:** High alert volume and missed attacks make network monitoring expensive.  
-**Proposed value:** Classify network flows and provide feature-level explanations to help analysts prioritize alerts.  
-**Success criteria:** Recall ≥ 0.95 and FPR < 0.01 (report honestly whether achieved).  
-**Business assumptions:** False-positive handling = 5 analyst minutes; missed-attack handling = 120 analyst-equivalent minutes. Justify or replace these assumptions.
+This project studies flow-level intrusion detection for security operations teams facing high alert volume and limited review capacity. Phase 1 defines binary detection and ten-class attack-family identification using UNSW-NB15. The public training CSV contains 175,341 observations with 42 model inputs. Exact input groups were kept together in a frozen split and five internal CV folds. The supplied Stage A Logistic Regression baseline on 35,068 internal validation rows achieved attack precision 0.962089, recall 0.940967 and F1 0.951411 at threshold 0.5. The FPR of 0.079018 and recall miss the frozen targets. Repeated inputs, conflicting labels, limited rare-class support and the absence of chronological evidence restrict the conclusions. Feature-level explanations remain a project objective.
 
-## 3. Dataset and Licence
-Dataset: UNSW-NB15 official training/testing partition files.  
-Source URL: [INSERT verified source URL].  
-Licence/terms: [INSERT verified licence or terms].  
-Rows/features/classes: [INSERT from notebook output].  
-Privacy and safe-use statement: public dataset; no unauthorized network capture or attack activity.
+### Problem and market case
 
-## 4. Exploratory Data Analysis
-Include class balance, attack-category counts, missing values, infinities, duplicates, and key observations. Insert notebook figures and describe their implications.
+An enterprise SOC or MSSP needs to prioritize suspicious traffic without overwhelming analysts. A learned flow classifier can rank suspicious observations. A validated feature-level explanation could help analysts investigate and review the resulting alerts. The operating targets are recall ≥95% and FPR <1% jointly. The predefined cost policy assigns five analyst minutes to a false positive and 120 analyst-equivalent minutes to a false negative. This policy prioritizes missed-attack reduction subject to false-alarm constraints. [Business case and objectives](deliverables/phase1/business-case.md)
 
-## 5. Cleaning and Leakage-Safe Preprocessing
-Describe dropping `id`, replacing ±infinity with NaN, removing exact duplicates before splitting, keeping `label` and `attack_cat` as targets only, and fitting imputers/scalers/encoders inside each model pipeline on training folds only. State the fixed random seed and split proportions.
+### Data and methodology
 
-## 6. Models and Experimental Setup
-Describe the binary and multiclass tasks. List baseline models and at least three tuned algorithms, their search spaces, cross-validation strategy, and training-only tuning. Explain why each model is appropriate.
+UNSW-NB15 combines normal activities and synthetic attacks captured in a cyber range. The official training CSV has 45 columns and 175,341 rows. It includes 56,000 Normal and 119,341 Attack rows. There were zero missing values and 74,301 extra exact feature-vector occurrences. We verified 140,273 M02.2 fit rows and 35,068 internal validation rows from frozen assignments. All five CV boundaries and the fit/validation boundary have zero shared exact input groups. Repeated groups and original labels are retained.
 
-## 7. Results and Evaluation
-Insert the model comparison table with precision, recall, F1, FPR, ROC-AUC, latency, and CV F1. Include confusion matrices and per-class recall. Discuss the best model and measured gain over baseline.
+The pipeline excludes the row ID and both target columns. It applies fit-side median imputation, zero lower clipping, log1p and standardization to numeric features. It encodes protocol, service and state with fit-side dense one-hot encoding and rare-level pooling. The binary baseline is balanced Logistic Regression with seed 42. Every fit uses a single combined preprocessing and classification pipeline. [EDA](deliverables/phase1/eda.md) · [Methodology](deliverables/phase1/preprocessing.md)
 
-## 8. Threshold and Business Metric
-Report selected threshold, confusion matrix counts, cost assumptions, estimated analyst hours saved on validation data and scaled estimate per 100,000 flows. Explain uncertainty and assumptions.
+### Task definitions and verified baseline evidence
 
-## 9. Explainability
-Insert global SHAP summary. Discuss one actual false negative and one actual false positive using their top SHAP features. If a class has no such error at the chosen threshold, state that and explain the fallback case honestly.
+Binary detection predicts Normal versus Attack. The proposed ten-class task predicts Normal or one of nine attack families, with macro-F1, per-class recall and a labeled confusion matrix specified for later evaluation. No completed multiclass experiment is evidenced here.
 
-## 10. Robustness and Generalization
-Report validation vs official held-out test results and per-class test recall. Discuss distribution shift. **Important:** UNSW-NB15 partition files used here do not provide a reliable timestamp column; this comparison is not a true temporal split. Add a genuine chronological experiment only after obtaining timestamped data.
+| M02.2 internal validation at threshold 0.5 | Value |
+| --- | ---: |
+| True positives / false positives | 22,459 / 885 |
+| True negatives / false negatives | 10,315 / 1,409 |
+| Attack precision / recall / F1 | 0.962089 / 0.940967 / 0.951411 |
+| Normal recall / FPR | 0.920982 / 0.079018 |
+| Reported ROC-AUC | 0.986691 |
+| Estimated policy cost | 173,505 analyst-equivalent minutes |
 
-## 11. Prototype and Deployment
-Describe Streamlit dashboard workflow: CSV upload, feature validation, model scoring, alert table, downloadable results, and per-flow SHAP reasons. Add screenshots from a successful local run.
+The counts and confusion-derived metrics are consistent with the supplied Stage A aggregate and M02.2 supports. ROC-AUC is transcribed because the validation scores and completed run export were unavailable locally. Accuracy of 93.46% obscures the 885 false alarms and 1,409 missed attacks and the different costs of those errors. The baseline misses both targets and no joint attainment is established by the available Phase 1 evidence. [Task definitions](deliverables/phase1/tasks.md) · [Baseline calculations and confusion matrix](deliverables/phase1/baseline.md)
 
-## 12. Limitations, Ethics, and Privacy
-Discuss false positives/negatives, dataset age/representativeness, possible drift, model bias across traffic classes, human review, privacy minimization, and no automated punitive action based solely on model output.
+### Limitations and ethics
 
-## 13. Cost and Deployment Considerations
-Discuss analyst time assumptions, compute requirements, model latency, monitoring/retraining, secure storage, access control, and operational costs.
+The benchmark prevalence and synthetic cyber-range behavior can differ from live enterprise networks. Exact grouping cannot exclude near-duplicates or shared sessions and does not establish temporal generalization. The public dataset is used for academic research under UNSW's terms, with no unauthorized traffic collection. This draft makes no production-readiness claim. Multiclass performance, attack-family recall, measured analyst savings, SHAP results and robustness results remain outside the verified Phase 1 evidence. [Terms, limitations and bibliography](deliverables/phase1/dataset-ethics.md)
 
-## 14. Conclusion and Future Work
-Summarize measured performance, whether success criteria were met, remaining temporal-split limitation, and next steps.
+### References
 
-## References
-[INSERT dataset citation, library documentation, SHAP reference, and any other sources actually used.]
+Dataset source and academic research terms. [UNSW Canberra](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 
-## Appendix
-- Hyperparameter search settings
-- Additional confusion matrices
-- Individual contribution table and Git commit evidence
+1. Moustafa, N., and Slay, J. (2015). UNSW-NB15: A comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). IEEE Military Communications and Information Systems Conference (MilCIS). [IEEE](https://ieeexplore.ieee.org/document/7348942)
+2. Moustafa, N., and Slay, J. (2016). The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 dataset and the comparison with the KDD99 dataset. Information Security Journal: A Global Perspective. [Publisher](https://doi.org/10.1080/19393555.2015.1125974)
+3. Moustafa, N., et al. (2017). Novel geometric area analysis technique for anomaly detection using trapezoidal area estimation on large-scale networks. IEEE Transactions on Big Data, early access. [IEEE](https://ieeexplore.ieee.org/document/7948715)
+4. Moustafa, N., Creech, G., and Slay, J. (2017). Big data analytics for intrusion detection system: Statistical decision-making using finite Dirichlet mixture models. In Data Analytics and Decision Support for Cybersecurity, pp. 127–156. Springer. [Publisher](https://doi.org/10.1007/978-3-319-59439-2_5)
+5. Sarhan, M., Layeghy, S., Moustafa, N., and Portmann, M. NetFlow Datasets for Machine Learning-Based Network Intrusion Detection Systems. In Big Data Technologies and Applications, BDTA 2020 and WiCON 2020 proceedings, p. 117. Springer. [Paper](https://arxiv.org/abs/2011.09144)

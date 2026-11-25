@@ -1,0 +1,9 @@
+# SOC business case and objectives
+
+The intended customer is an enterprise security operations center (SOC) or a managed security service provider (MSSP). Analysts face more alerts than they can inspect, while missed attacks can allow incidents to escalate. A flow classifier could rank suspicious traffic for review. Feature-level explanations could help analysts decide which flow properties to investigate, compare alerts, and document decisions. Explanation quality and triage impact remain objectives for later evaluation.
+
+The frozen operating targets are Attack recall ≥95% and normal-flow FPR <1% at the same operating threshold. On the M02.2 internal validation support this permits at most 1,193 false negatives and 111 false positives. The supplied Stage A Logistic Regression baseline at 0.5 misses both. The project has no demonstrated joint attainment in the Phase 1 evidence.
+
+The policy minimizes estimated error cost using 5 × FP + 120 × FN. Each false positive represents five assumed analyst minutes for triage. Each false negative represents 120 analyst-equivalent minutes to reflect its assumed higher investigation or response burden. The ratio weights a missed attack 24 times as heavily as a false alarm. At the baseline's 885 FP and 1,409 FN on M02.2 internal validation, modeled error cost is 173,505 analyst-equivalent minutes. Actual workflow costs, revenue, adoption and analyst hours saved have not been measured. [Baseline calculation](baseline.md)
+
+The benchmark assesses detection within a public cyber-range-derived flow dataset. A deployable SOC product would need representative authorized traffic, verified feature availability at scoring time, integration with the alert workflow, operating thresholds tested at realistic traffic prevalence, analyst validation of explanations, drift monitoring and appropriate data protection. The Phase 1 evidence supports an academic feasibility discussion.

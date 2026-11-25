@@ -139,7 +139,8 @@ class ImportAndArtifactTests(unittest.TestCase):
         source = "\n".join("".join(cell["source"]) for cell in notebook["cells"] if cell["cell_type"] == "code")
         self.assertNotIn("UTILS_SOURCE", source)
         self.assertNotIn("pip install", source)
-        self.assertIn("from ids_utils import", source)
+        runner = (ROOT / "m03_runner.py").read_text(encoding="utf-8")
+        self.assertIn("from ids_utils import", runner)
 
 
 if __name__ == "__main__":

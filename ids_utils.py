@@ -86,3 +86,23 @@ def prepare_features(df, feature_cols):
             except (TypeError, ValueError) as exc:
                 raise ValueError(f"Feature {name!r} must contain numbers or missing values.") from exc
     return data
+
+
+def make_preprocessor(features):
+    """Build the approved, unfitted preprocessing pipeline for the ordered schema."""
+    from sklearn.compose import ColumnTransformer
+    from sklearn.impute import SimpleImputer
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import FunctionTransformer, OneHotEncoder, StandardScaler
+
+    categorical = [name for name in features if name in CATEGORICAL_COLS]
+    numeric = [name for name in features if name not in CATEGORICAL_COLS]
+    return ColumnTransformer([
+        ("num", Pipeline([
+            ("imp", SimpleImputer(strategy="median")),
+            ("log", FunctionTransformer(log_clip, feature_names_out="one-to-one")),
+            ("sc", StandardScaler()),
+        ]), numeric),
+        ("cat", OneHotEncoder(handle_unknown="infrequent_if_exist", min_frequency=0.005,
+                              sparse_output=False), categorical),
+    ])

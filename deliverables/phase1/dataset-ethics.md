@@ -1,0 +1,13 @@
+# UNSW-NB15 terms, citations and ethics
+
+UNSW grants free use in perpetuity for academic research. Commercial use requires agreement with the authors. Nour Moustafa and Jill Slay assert copyright, and UNSW requires users to cite the five works below. The project uses the published training partition for public-data academic research and undertook no unauthorized traffic collection. The local data manifest records a schema and checksum match for the recovered CSV and discloses that independent publisher authentication and a publisher checksum were unavailable. [UNSW dataset page and terms](https://research.unsw.edu.au/projects/unsw-nb15-dataset) · [Local dataset manifest](../../data/dataset_manifest.json)
+
+UNSW describes a cyber-range dataset combining normal activities with synthetic attack behavior. Capture era, environment, flow extraction, class balance and attack coverage can differ from present-day enterprise networks. False positives can divert scarce analyst attention. False negatives can delay incident response. Human review and organization-specific validation are required before operational use. The project makes no claim of production deployment readiness.
+
+## Required references
+
+1. Moustafa, N., and Slay, J. (2015). UNSW-NB15: A comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). IEEE Military Communications and Information Systems Conference (MilCIS). [IEEE](https://ieeexplore.ieee.org/document/7348942)
+2. Moustafa, N., and Slay, J. (2016). The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 dataset and the comparison with the KDD99 dataset. Information Security Journal: A Global Perspective. [Publisher](https://doi.org/10.1080/19393555.2015.1125974)
+3. Moustafa, N., et al. (2017). Novel geometric area analysis technique for anomaly detection using trapezoidal area estimation on large-scale networks. IEEE Transactions on Big Data, early access. [IEEE](https://ieeexplore.ieee.org/document/7948715)
+4. Moustafa, N., Creech, G., and Slay, J. (2017). Big data analytics for intrusion detection system: Statistical decision-making using finite Dirichlet mixture models. In Data Analytics and Decision Support for Cybersecurity, pp. 127–156. Springer. [Publisher](https://doi.org/10.1007/978-3-319-59439-2_5)
+5. Sarhan, M., Layeghy, S., Moustafa, N., and Portmann, M. NetFlow Datasets for Machine Learning-Based Network Intrusion Detection Systems. In Big Data Technologies and Applications, BDTA 2020 and WiCON 2020 proceedings, p. 117. Springer. [Paper](https://arxiv.org/abs/2011.09144)
